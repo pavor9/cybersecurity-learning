@@ -27,12 +27,3 @@ This repository tracks my daily progress learning cybersecurity fundamentals thr
 ---
 
 *Learning in public. Building in public.*
-```
-
----
-
-## File Structure Summary:
-```
-cybersecurity-learning/
-├── README.md (overview - what visitors see first)
-└── learning-log.md (daily entries - your full log)
