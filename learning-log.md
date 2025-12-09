@@ -78,5 +78,26 @@ What I learned:
 
 **Progress:** Reviewed 56 Anki cards from Day 3, concepts clicking better on second pass
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+## Day 5 - December 2, 2024
+**Room:** OSI Model
 
+**What I learned:**
+- OSI Model: 7-layer framework for network communication (Application → Presentation → Session → Transport → Network → Data Link → Physical)
+- Encapsulation: data wraps with headers as it moves down layers when sending
+- Physical layer: transmits raw bits as electrical/light signals
+- Data Link layer: handles MAC addresses and node-to-node transfer (NIC operates here)
+- Network layer: handles IP addressing and routing between networks (routers operate here)
+- Routing protocols: OSPF (link-state) and RIP (distance-vector)
+- Transport layer: manages end-to-end communication
+- TCP: reliable, connection-oriented (guarantees delivery, slower)
+- UDP: fast, connectionless (no delivery guarantee, used for streaming/gaming)
+- Session layer: establishes and manages connections between applications
+- Presentation layer: translator for data formatting, encryption, compression
+- Application layer: user-facing services (DNS, HTTP, FTP, email)
+- DNS: translates domain names to IP addresses
+
+**Key insight:** Data flows DOWN through encapsulation when sending, UP through de-encapsulation when receiving. Each layer adds/removes its own header.
+
+**Created:** 32 Anki flashcards covering OSI model concepts, layers, and protocols
