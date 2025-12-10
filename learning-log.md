@@ -80,7 +80,7 @@ What I learned:
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## Day 5 - December 2, 2024
+## Day 5 - December 9th, 2025
 **Room:** OSI Model
 
 **What I learned:**
@@ -101,3 +101,36 @@ What I learned:
 **Key insight:** Data flows DOWN through encapsulation when sending, UP through de-encapsulation when receiving. Each layer adds/removes its own header.
 
 **Created:** 32 Anki flashcards covering OSI model concepts, layers, and protocols
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Day 5 - December 10th, 2024
+**Rooms:** OSI Model, Packets and Frames
+
+**What I learned:**
+
+**OSI Model:**
+- 7-layer framework for network communication (Application → Presentation → Session → Transport → Network → Data Link → Physical)
+- Encapsulation: data wraps with headers as it moves down layers when sending
+- Each layer has specific function and protocols
+- TCP/UDP operate at Transport layer, IP at Network layer
+- Key insight: Data flows DOWN through encapsulation (sending), UP through de-encapsulation (receiving)
+
+**Packets and Frames:**
+- Packet = the data/information (like a letter)
+- Frame = envelope that wraps packet for transmission (includes MAC addresses)
+- TCP headers contain: source/destination ports, IPs, sequence numbers, acknowledgement, checksum, flags, TTL
+- TCP three-way handshake: SYN (request connection) → SYN/ACK (acknowledge) → ACK (confirm) → data flows
+- TCP = reliable, connection-oriented (file transfers, web browsing)
+- UDP = fast, connectionless (gaming, streaming)
+- TCP flags: SYN (start), ACK (acknowledge), FIN (finish), RST (reset/abort)
+- Ports = numbered endpoints directing traffic to specific services (Port 80=HTTP, 443=HTTPS, 22=SSH)
+
+**Key breakthrough:** Speed-running rooms (30-45 min each) with 85% understanding on first pass, then letting review/practice deepen comprehension over time. Less stress, more progress.
+
+**Created:** 38 Anki flashcards (32 OSI + 6 Packets/Frames)
+
+**Next:** Hands-on Wireshark practice to see packets/headers in action
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
