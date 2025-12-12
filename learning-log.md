@@ -134,3 +134,33 @@ What I learned:
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+## Day 6 - December 12th, 2025
+**Focus:** Revisiting Network Fundamentals + Video Creation System
+
+**What I did:**
+- Went back to first completed room (Network Fundamentals) to create explanatory video
+- Tested new workflow: TryHackMe notes → NotebookLM mindmap → voiceover recording
+- Published first video explaining basic networking concepts
+
+**Why go back:**
+Creating videos revealed gaps in my understanding. Concepts I thought I knew became fuzzy when explaining out loud. Going back to fundamentals before continuing forward ensures solid foundation.
+
+**Key concepts covered in video:**
+- Networks vs Internet (devices connected vs global network)
+- Public vs Private networks
+- IP addresses (4 octets, logical addressing)
+- MAC addresses (physical hardware addressing)
+- Ping and ICMP protocol
+
+**Video creation process established:**
+- NotebookLM generates mindmap structure from notes
+- Screen record + voiceover explanation
+- Light editing for clarity
+- Upload + publish
+
+**New insight:** Teaching forces understanding. Can't fake comprehension on camera. The Feynman Technique in practice.
+
+**Next:** Continue creating videos for completed rooms (Days 1-5) to establish complete coverage and workflow consistency before adding new material.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
