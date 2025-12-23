@@ -164,3 +164,46 @@ Creating videos revealed gaps in my understanding. Concepts I thought I knew bec
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+## Day 8 - December 23rd, 2025
+**Room:** Extending Your Network
+
+**What I learned:**
+
+**Port Forwarding:**
+- Opens specific ports on router to allow external access to internal devices
+- Router maps external port to internal device IP:port
+- Essential for hosting services (web servers, game servers) on home network
+
+**Firewalls:**
+- Stateful: Inspects entire connection (understands context, tracks connection state)
+- Stateless: Inspects individual packets independently (no context awareness)
+- Stateful more secure but requires more resources
+
+**VPN (Virtual Private Network):**
+- Creates encrypted tunnel between devices over public internet
+- Forms new private network
+- Two main protocols:
+  * PPTP: Easy setup, weak security (outdated)
+  * IPSec: Difficult setup, strong encryption (preferred)
+
+**VLAN (Virtual LAN):**
+- Logically separates network into segments using routers/switches
+- Improves security and management without physical separation
+- Example: Guest network vs internal network on same hardware
+
+**Network Simulator Key Insight:**
+Watched complete packet journey from Computer1 to Computer3 across networks:
+1. Routing decision (destination not local → send to gateway)
+2. First ARP (Computer1 gets router MAC address)
+3. Second ARP (Router gets Computer3 MAC address)
+4. TCP handshake across network (SYN → SYN/ACK → ACK)
+5. Data transmission with acknowledgement
+
+Understanding: Communication between different networks requires:
+- Router (gateway between networks)
+- Multiple ARP requests (one per network hop)
+- TCP connection maintained end-to-end despite routing
+
+**Created:** 6 Anki flashcards covering network extension concepts
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
